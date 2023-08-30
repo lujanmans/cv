@@ -1,8 +1,65 @@
 @charset "utf-8";
 /* CSS Document */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
 *{
 	margin: 0px;
 	padding: 0px;
 	list-style: none;
 	text-decoration: none;
+}
+body{
+	font-family: Roboto, "Roboto Medium";
+	color: seashell;
+	background-color: sienna;
+}
+h1{
+	font-weight: bold;
+	font-size: 3em;
+}
+h2{
+	font-weight: 500;
+	font-size: 2em;
+	padding: 20px 0px;
+}
+h3{
+	font-weight: bold;
+	font-size: 1.4em;
+	padding: 20px;
+	text-align: center;
+}
+h4{
+	font-weight:500;
+	font-size: 1.2em;
+}
+.flex {
+	display: flex;
+}
+main{
+	align-items:center;
+	flex-direction: column;
+}
+header img{
+	margin: 30px;
+	border-radius: 30px;
+}
+#perfil{
+	border: solid;
+	border-color: seashell;
+	border-width: 4px;
+	border-radius: 30px;
+	padding: 20px;
+	margin: 30px;
+	max-width: 1000px;
+	align-items: center;
+}
+#perfil p{
+	font-size: 1em;
+	margin: 30px;
+}
+#habilidades{
+	background-color: peru;
+	border-radius: 15px;
+	padding: 15px 30px;
+	width: 200px;
+	margin: 0px 15px;
 }
