@@ -84,7 +84,8 @@ header img{
 }
 .contenedor2{
 	display:flex;
-	align-items: center;
+	align-items:center;
+	align-items: flex-start;
 }
 .estudioexperiencia{
 	flex:1;
@@ -93,4 +94,12 @@ header img{
 .habilidades{
 	flex: 2;
 	padding: 10px;
+}
+footer{
+	background-color: peru;
+	height: 100px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	border-radius: 15px;
 }
