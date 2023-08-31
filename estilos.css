@@ -1,6 +1,9 @@
 @charset "utf-8";
 /* CSS Document */
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+/* hay un par de comentarios más abajo, revisá todo el doc!*/
+
 *{
 	margin: 0px;
 	padding: 0px;
@@ -14,7 +17,7 @@ body{
 }
 h1{
 	font-weight: bold;
-	font-size: 3em;
+	font-size: 3em; /* bien! */
 }
 h2{
 	font-weight: 500;
@@ -72,10 +75,10 @@ header img{
 }
 .contenedor{
 	display: flex;
-	align-items: center;
+	align-items: center; /* falta una propiedad más para que termine de estar bien centrado */
 }
 .imagen{
-	flex: 1;
+	flex: 1; /* guarda que con esto se te está deformando la imagen!! si necesitás cambiar el tamaño de la foto te conviene modificar el archivo directamente */
 	padding: 10px;
 }
 .informacion{
@@ -84,7 +87,7 @@ header img{
 }
 .contenedor2{
 	width: 100%;
-	height: 300px;
+	height: 300px; /* las alturas fijas no están buenas, fijate si podés lograr la altura con algún margin y que sea el contenido el que determine el tamaño de las cajas */
 	display: flex;
 	align-items: center;
 	align-items: flex-start;
@@ -94,7 +97,7 @@ header img{
 .estudio{
 	padding: 20px;
 	margin: 0px 30px;
-	flex: 1;
+	flex: 1; /* estos flex están haciendo que todo se estire mucho, los flex de experiencia y habilidades también, una mejor opción es usar la propiedad "max-width" para establecer un ancho máximo que sea igual en las 3 cajas */
 }
 .experiencia{
 	flex: 1;
