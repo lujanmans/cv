@@ -63,3 +63,27 @@ header img{
 	width: 200px;
 	margin: 0px 15px;
 }
+.contenedor{
+	display:flex;
+	align-items: center;
+}
+.imagen{
+	flex: 1;
+	padding: 10px;
+}
+.informacion{
+	flex: 2;
+	padding: 10px;
+}
+.contenedor2{
+	display:flex;
+	align-items: center;
+}
+.estudioexperiencia{
+	flex:1;
+	padding:10px
+}
+.habilidades{
+	flex: 2;
+	padding: 10px;
+}
