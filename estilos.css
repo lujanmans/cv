@@ -2,8 +2,6 @@
 /* CSS Document */
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
 
-/* hay un par de comentarios más abajo, revisá todo el doc!*/
-
 *{
 	margin: 0px;
 	padding: 0px;
@@ -75,14 +73,13 @@ header img{
 }
 .contenedor{
 	display: flex;
-	align-items: center; /* falta una propiedad más para que termine de estar bien centrado */
+	align-items: center;
+	justify-content: center;
 }
 .imagen{
-	flex: 1; /* guarda que con esto se te está deformando la imagen!! si necesitás cambiar el tamaño de la foto te conviene modificar el archivo directamente */
 	padding: 10px;
 }
 .informacion{
-	flex: 2;
 	padding: 10px;
 }
 .contenedor2{
@@ -97,15 +94,15 @@ header img{
 .estudio{
 	padding: 20px;
 	margin: 0px 30px;
-	flex: 1; /* estos flex están haciendo que todo se estire mucho, los flex de experiencia y habilidades también, una mejor opción es usar la propiedad "max-width" para establecer un ancho máximo que sea igual en las 3 cajas */
+	max-width: 300px;
 }
 .experiencia{
-	flex: 1;
 	padding: 10px;
+	max-width: 300px;
 }
 .habilidades{
-	flex: 1;
 	padding: 10px;
+	max-width: 300px;
 }
 footer{
 	background-color: peru;
