@@ -17,21 +17,12 @@ body{
 
 h1{
 	font-weight: bold;
-	font-size: 3em; 
+	font-size: 2em; 
 }
 
 h2{
 	font-weight: 500;
-	font-size: 2em;
-}
-
-a{
-	color:sandybrown;
-}
-
-a:hover{
-	color: peru;
-	font-size: 1em;
+	font-size: 1.6em;
 }
 
 h3{
@@ -43,8 +34,23 @@ h4{
 	font-weight:500;
 	font-size: 1.2em;
 }
+a{
+	color: seashell;
+}
+
+a:hover{
+	color: peru;
+	font-size: 1em;
+}
+
+header{
+	background-color: peru;
+	padding: 1em;
+	text-align: center;
+}
 
 footer{
 	background-color: peru;
-	height: 100px;
+	padding: 1em;
+	text-align: center;
 }
