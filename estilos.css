@@ -76,9 +76,28 @@ form{
 	width: 100%;
 	height: auto;
 	border: 3px solid seashell;
+	display: flex;
+	flex-wrap: wrap;
+}
+form div{
+	width: 50%;
+	height: auto;
+	padding: 1em;
+}
+label{
+	display: block;
+	height: 2em;
 }
 input{
+	width: 100%;
+	height: 2em;
 	background-color: seashell;
+	margin-bottom: 1em;
+}
+input[type=radio]{
+	width: auto;
+	height: auto;
+	
 }
 
 @media (max-width:600px){
