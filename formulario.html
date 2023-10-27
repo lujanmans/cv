@@ -19,5 +19,37 @@
 				</ul>
 			</nav>
 		</header>
+		<main>
+			<h3>Servicios</h3>
+			<form method="post" action="mailto:99lujan@gmail.com.ar?subject=Email enviado desde el formulario" target="_blank" enctype="text/plain">
+				
+				<div>
+					<label for="Nombre">Nombre:</label>
+					<input type="text" name="Nombre" id="Nombre" maxlength="50" placeholder="Ej.: Sabrina Rojas" required>
+
+					<label>Email:</label>
+					<input type="email" name="Email" id="Email" required> 
+
+					<label>Edad:</label>
+					<input type="number" min="18" max="100" name="Edad" id="Edad" required>
+				</div>
+					
+				<div
+					<label>Fecha de Nacimiento </label>
+					<input type="date" name="Nacimiento" id="Nacimiento">
+				
+					<p>G&eacute;nero:</p>
+					<label>Femenino<input type="radio" name="G&eacute;nero:" value="Femenino" id="Femenino"></label>
+					<label>Masculino <input type="radio" name="G&eacute;nero:" value="Masculino" id="Masculino"></label>
+					<label>No binario<input type="radio" name="G&eacute;nero:" value="No binario" id="No binario"></label>
+
+					<label for="Servicio">Servicio requerido:</label>
+					<textarea name="Servicio" id="Servicio" maxlength="500"></textarea>
+				</div>
+
+					<input type="reset" value="Borrar">
+					<input type="submit" value="Enviar" formenctype="text/plain">
+			</form>
+		</main>
 	</body>
 </html>
