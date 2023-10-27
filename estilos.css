@@ -34,6 +34,7 @@ h4{
 	font-weight:500;
 	font-size: 1.2em;
 }
+
 a{
 	color: seashell;
 }
@@ -48,13 +49,40 @@ header{
 	background-color: peru;
 	padding: 1em;
 	text-align: center;
+	justify-content: space-between;
+	align-items: center;
 }
+
 .nombre{
 	display: flex;
+	align-items: center;
+}
+
+nav ul li{
+	display: inline;
+	padding: 0.5em;
+	border: 3px solid seashell;
+	border-radius: 10px;
 }
 
 footer{
 	background-color: peru;
 	padding: 1em;
 	text-align: center;
+}
+
+/*formulario de servicios */
+form{
+	width: 100%;
+	height: auto;
+	border: 3px solid seashell;
+}
+input{
+	background-color: seashell;
+}
+
+@media (max-width:600px){
+	header{
+		flex-direction: column;
+	}
 }
