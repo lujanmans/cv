@@ -49,6 +49,9 @@ header{
 	padding: 1em;
 	text-align: center;
 }
+.nombre{
+	display: flex;
+}
 
 footer{
 	background-color: peru;
