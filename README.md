@@ -1,1 +1,1 @@
-#Link del release 
+#Link del release https://github.com/lujanmans/cv/releases/tag/curriculum
